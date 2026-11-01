@@ -1,0 +1,25 @@
+/**:
+  ros__parameters:
+    gate_centering:
+      takeoff_altitude: 1.0
+      forward_distance: 3.0
+      gate_width: 1.5
+      centering_tolerance: 0.20
+      waypoint_tolerance: 0.3
+      max_centering_time: 30.0
+      max_detection_range: 20.0
+      control_mode: "velocity"
+      max_velocity: 0.2
+      proportional_gain: 0.4
+      rotation_angle: -90.0
+    
+    gate_centering_3d:
+      gate_width: 1.5              # Expected gate width in meters
+      lateral_tolerance: 0.10      # Lateral centering tolerance (left/right)
+      vertical_tolerance: 0.10     # Vertical centering tolerance (up/down)
+      min_points_vertical: 1       # Minimum vertical points (total_points/4, so 4 points = 1 vertical)
+      min_points_horizontal: 1     # Minimum horizontal points (sesuai 4 points di RViz)
+      max_velocity: 0.2            # Maximum correction velocity
+      proportional_gain: 0.5       # Proportional control gain
+      max_time: 30.0               # Maximum centering time in seconds
+      
