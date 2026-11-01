@@ -125,11 +125,3 @@ The drone is already centered and can proceed through the gate.
 ## Visualization
 
 <img alt="LIDAR Gate Detection" src="img/lidar.png">
-
----
-
-## Project Info
-
-**Author:** El Jausyan ~ vtol-Soeromiber  
-**Date:** January 2026  
-**Status:** ✅ TESTED & WORKING
